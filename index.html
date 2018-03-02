@@ -14,7 +14,7 @@
 			<img src="neighbourly-logo.svg"/>
 		</header>
 		<div class="content first-page">
-			<div class="h1">Kia ora, Elesha!</div>
+			<div class="h1">Kia ora, Joe!</div>
 			<div class="card white">
 				<span class="h2 inline">
 					Catch of the day
@@ -48,92 +48,35 @@
 					Search by a keyword
 				</div>
 				<div class="search-bar">
-					<input name="page" value="1" type="hidden">
-					<table class="table table-bordered">
-					<tbody>
-					<tr>
-					<td>Date</td>
-					<td>
-					<select name="filters[date]">
-					<option value="week">This week</option>
-					<option selected="selected" value="month">This month</option>
-					<option value="year">This year</option>
-					</select>
-					</td>
-					</tr>
-					<tr>
-					<td>Keyword</td>
-					<td>
-					<input name="filters[keyword]" value="sewage" placeholder="Keyword" type="text">
-					</td>
-					</tr>
-					<tr>
-					<td>Region</td>
-					<td>
-					<select name="filters[region]">
-					<option selected="selected" value="any">All</option>
-					<option value="2">Auckland Region</option>
-					<option value="5">Bay of Plenty Region</option>
-					<option value="8">Canterbury Region</option>
-					<option value="32">Hawkes Bay - Gisborne Region</option>
-					<option value="38">Manawatu - Wanganui Region</option>
-					<option value="41">Nelson Marlborough Region</option>
-					<option value="44">Northland Region</option>
-					<option value="50">Otago - Southland Region</option>
-					<option value="62">Taranaki Region</option>
-					<option value="65">Waikato Region</option>
-					<option value="68">Wellington Region</option>
-					<option value="71">West Coast Region</option>
-					</select>
-					</td>
-					</tr>
-					<tr>
-					<td>Limit </td>
-					<td><select name="limit">
-					<option value="20">20 Records</option>
-					<option value="50" selected="">50 Records</option>
-					<option value="100">100 Records</option>
-					</select>
-					</td>
-					</tr>
-					</tbody>
-					</table>
-					<input value="Filter" class="btn btn-primary" type="submit">
-				</div>
-			</div>
-		</div>
-		<div class="content second-page">
-			<span class="h1 inline" style="width:80%;">
-					Search results
-			</span><!-- 
-			 --><span class="detail inline" style="    text-align: right;
-    width: 20%;
-    vertical-align: text-top;">
-				<span class="btn-back"><img src="caret.svg"/>Back</span>
-			</span> 
-			<div class="search-bar">
+					
+
+
+
+				
 				<input name="page" value="1" type="hidden">
-				<table class="table table-bordered">
-				<tbody>
-				<tr>
-				<td>Date</td>
-				<td>
+
+				<div class="search-area">
+					<input name="filters[keyword]" value="Sewage" placeholder="Search for posts on Neighbourly..." type="text">
+					<div class="btn-submit" onclick="document.getElementById('submitBtn').submit();"><span class="glyphicon glyphicon-search"></span></div>
+					
+				</div>
+
+			
+
+				<div class="filter">
+				<span class="label">Time</span>
 				<select name="filters[date]">
 				<option value="week">This week</option>
 				<option selected="selected" value="month">This month</option>
 				<option value="year">This year</option>
 				</select>
-				</td>
-				</tr>
-				<tr>
-				<td>Keyword</td>
-				<td>
-				<input name="filters[keyword]" value="sewage" placeholder="Keyword" type="text">
-				</td>
-				</tr>
-				<tr>
-				<td>Region</td>
-				<td>
+			</div>
+
+
+				
+				<div class="filter">
+
+				<span class="label">Region</span>
 				<select name="filters[region]">
 				<option selected="selected" value="any">All</option>
 				<option value="2">Auckland Region</option>
@@ -149,30 +92,99 @@
 				<option value="68">Wellington Region</option>
 				<option value="71">West Coast Region</option>
 				</select>
-				</td>
-				</tr>
-				<tr>
-				<td>Limit </td>
-				<td><select name="limit">
+
+			</div>
+			<div class="filter">
+
+				<span class="label">Limit</span>
+					<select name="limit">
 				<option value="20">20 Records</option>
 				<option value="50" selected="">50 Records</option>
 				<option value="100">100 Records</option>
 				</select>
-				</td>
-				</tr>
-				</tbody>
-				</table>
-				<input value="Filter" class="btn btn-primary" type="submit">
+
 			</div>
+					<input id="submitBtn" value="Filter" class="btn btn-primary" type="submit">
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="content second-page">
+			<span class="h1 inline" style="width:80%;">
+					Search results
+			</span><!-- 
+			 --><span class="detail inline" style="    text-align: right;
+    width: 20%;
+    vertical-align: text-top;">
+				<span class="btn-back"><img src="caret.svg"/>Back</span>
+			</span> 
+			<div class="search-bar">
+					
+
+
+
+				
+				<input name="page" value="1" type="hidden">
+
+				<div class="search-area">
+					<input name="filters[keyword]" value="Sewage" placeholder="Search for posts on Neighbourly..." type="text">
+					<div class="btn-submit" onclick="document.getElementById('submitBtn').submit();"><span class="glyphicon glyphicon-search"></span></div>
+					
+				</div>
+
+			
+
+				<div class="filter">
+				<span class="label">Time</span>
+				<select name="filters[date]">
+				<option value="week">This week</option>
+				<option selected="selected" value="month">This month</option>
+				<option value="year">This year</option>
+				</select>
+			</div>
+
+
+				
+				<div class="filter">
+
+				<span class="label">Region</span>
+				<select name="filters[region]">
+				<option selected="selected" value="any">All</option>
+				<option value="2">Auckland Region</option>
+				<option value="5">Bay of Plenty Region</option>
+				<option value="8">Canterbury Region</option>
+				<option value="32">Hawkes Bay - Gisborne Region</option>
+				<option value="38">Manawatu - Wanganui Region</option>
+				<option value="41">Nelson Marlborough Region</option>
+				<option value="44">Northland Region</option>
+				<option value="50">Otago - Southland Region</option>
+				<option value="62">Taranaki Region</option>
+				<option value="65">Waikato Region</option>
+				<option value="68">Wellington Region</option>
+				<option value="71">West Coast Region</option>
+				</select>
+
+			</div>
+			<div class="filter">
+
+				<span class="label">Limit</span>
+					<select name="limit">
+				<option value="20">20 Records</option>
+				<option value="50" selected="">50 Records</option>
+				<option value="100">100 Records</option>
+				</select>
+
+			</div>
+					<input id="submitBtn" value="Filter" class="btn btn-primary" type="submit">
+				</div>
 			<div class="card white">
 				<div class="post-content">
 					<div class="subject">
-						Some fake message subject goes here
-						<!-- {{ message.subject }} -->
+						There's some stanky business going on around here, and not sure if I'm the only one that's noticed...
 					</div>
 					<div class="user" data-id="{{ message.user.id }}">
 						<span class="img-user" style="background-image: url(/*user img url goes here*/);"></span>
-						<span class="name-user link">{{ message.user.firstName }} {{ message.user.lastName }}</span> from <span class="location-user link" data-district="{{ message.originNeighbourhood.district.name }}" data-region="{{ message.originNeighbourhood.district.region.name }}">{{ message.originNeighbourhood.name }}</span>
+						<span class="name-user link">John Doe</span> from <span class="location-user link" data-district="{{ message.originNeighbourhood.district.name }}" data-region="{{ message.originNeighbourhood.district.region.name }}">Brooklyn</span>
 					</div>
 				</div><!-- 
 				--><div class="post-info">
@@ -183,29 +195,21 @@
 				</div>
 
 				<div class="post-message">
+					The sewage lines have broken down the street and ever since my kids pointed it out, I can't unsmell it! Anyone else having this issue?
 				</div>
-				{% if message.images|length > 0 and message.images[0] %}
+				<!-- {% if message.images|length > 0 and message.images[0] %} -->
 				<div class="post-img">
 					<!-- <img src="{{ asset(message.images[0].getThumbnailUrl) }}"> -->
 				</div>
-				{% endif %}
 				<div class="post-engagement-details">
 					<div class="likes"><span class="glyphicon glyphicon-like"></span>233 likes</div>
 					<div class="thanks"><span class="glyphicon glyphicon-thank"></span>4323 thanks</div>
 					<div class="replies"><span class="glyphicon glyphicon-reply"></span>33 replies</div>
 				</div>
 				<div class="btn-contact">
-					Contact <span data-id="{{ message.user.id }}">{{ message.user.firstName }}?</span>
+					Contact <span data-id="{{ message.user.id }}">John?</span>
 				</div>
 			</div>
 		</div>
-		
-		<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-  		<script>
-  			// $("")
-  		</script>
 	</body>
 </html>

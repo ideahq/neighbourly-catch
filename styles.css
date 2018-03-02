@@ -101,7 +101,7 @@ header > img {
 	width: 30px;
 	height: 30px;
 	border-radius:2px;
-	background-color: pink;
+	background-color: #ebeef0;
 	display: inline-block;
 }
 .user > span {
@@ -178,7 +178,50 @@ header > img {
 .glyphicon-reply::before {
     content: "\e011";
 }
+.glyphicon-search:before {
+    content: "\e02a";
+   }
 .post-engagement-details > div {
 	display:inline-block;
 	margin-right: 10px;
+}
+.search-bar input[name="filters[keyword]"] {
+	    width: calc(100% - 20px);
+    border-radius: 5px;
+    border: 1px solid #C5C5C5;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.search-area {
+	position: relative;
+}
+.search-area .btn-submit {
+	    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.glyphicon-search {
+	    color: black;
+    font-size: 1.3em;
+}
+.search-bar .label {
+	    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.search-bar .filter {
+	margin-left: 10px;
+	display:inline-block;
+	margin-top: 10px;
+}
+
+.search-bar input[value="Filter"] {
+	visibility: hidden;
+}
+.post-engagement-details {
+	margin-top: 20px;
+}
+.user {
+	margin-top: 20px;
 }
