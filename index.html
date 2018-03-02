@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=edge,chrome=1">
+		<title>Neighbourly CATCH</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"> 
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<img src="neighbourly-logo.svg"/>
+		</header>
+		<div class="content first-page">
+			<div class="h1">Kia ora, Elesha!</div>
+			<div class="card white">
+				<span class="h2 inline">
+					Catch of the day
+				</span><!-- 
+				 --><span class="detail inline" style="text-align: right;">
+					engaged audience score
+				</span> 
+				<div class="catches">
+					<div class="catch">
+						<span class="link"><span class="rank">1</span>We spotted drones while sunbathing. This is outrageous!</span><span class="eas">1.05</span>
+					</div>
+					<div class="catch">
+						<span class="link"><span class="rank">2</span>I got sold a lemon car!!!!! Not in my fifty years</span><span class="eas">0.07</span>
+					</div>
+					<div class="catch">
+						<span class="link"><span class="rank">3</span>Monarch caterpillars need a home</span><span class="eas">0.05</span>
+					</div>
+					<div class="catch">
+						<span class="link"><span class="rank">4</span>Indoor plants for the saddest room...</span><span class="eas">0.02</span>
+					</div>
+					<div class="catch">
+						<span class="link"><span class="rank">5</span>Can't find any work hereabouts</span><span class="eas">0.01</span>
+					</div>
+				</div>
+				<div class="action link">
+					<img class="icon" src="more.svg"/>See more
+				</div>
+			</div>
+			<div class="card">
+				<div class="h2">
+					Search by a keyword
+				</div>
+				<div class="search-bar">
+					<input name="page" value="1" type="hidden">
+					<table class="table table-bordered">
+					<tbody>
+					<tr>
+					<td>Date</td>
+					<td>
+					<select name="filters[date]">
+					<option value="week">This week</option>
+					<option selected="selected" value="month">This month</option>
+					<option value="year">This year</option>
+					</select>
+					</td>
+					</tr>
+					<tr>
+					<td>Keyword</td>
+					<td>
+					<input name="filters[keyword]" value="sewage" placeholder="Keyword" type="text">
+					</td>
+					</tr>
+					<tr>
+					<td>Region</td>
+					<td>
+					<select name="filters[region]">
+					<option selected="selected" value="any">All</option>
+					<option value="2">Auckland Region</option>
+					<option value="5">Bay of Plenty Region</option>
+					<option value="8">Canterbury Region</option>
+					<option value="32">Hawkes Bay - Gisborne Region</option>
+					<option value="38">Manawatu - Wanganui Region</option>
+					<option value="41">Nelson Marlborough Region</option>
+					<option value="44">Northland Region</option>
+					<option value="50">Otago - Southland Region</option>
+					<option value="62">Taranaki Region</option>
+					<option value="65">Waikato Region</option>
+					<option value="68">Wellington Region</option>
+					<option value="71">West Coast Region</option>
+					</select>
+					</td>
+					</tr>
+					<tr>
+					<td>Limit </td>
+					<td><select name="limit">
+					<option value="20">20 Records</option>
+					<option value="50" selected="">50 Records</option>
+					<option value="100">100 Records</option>
+					</select>
+					</td>
+					</tr>
+					</tbody>
+					</table>
+					<input value="Filter" class="btn btn-primary" type="submit">
+				</div>
+			</div>
+		</div>
+		<div class="content second-page">
+			<span class="h1 inline">
+					Search results
+			</span><!-- 
+			 --><span class="detail inline" style="text-align: right;">
+				< Back
+			</span> 
+			<div class="search-bar">
+				<input name="page" value="1" type="hidden">
+				<table class="table table-bordered">
+				<tbody>
+				<tr>
+				<td>Date</td>
+				<td>
+				<select name="filters[date]">
+				<option value="week">This week</option>
+				<option selected="selected" value="month">This month</option>
+				<option value="year">This year</option>
+				</select>
+				</td>
+				</tr>
+				<tr>
+				<td>Keyword</td>
+				<td>
+				<input name="filters[keyword]" value="sewage" placeholder="Keyword" type="text">
+				</td>
+				</tr>
+				<tr>
+				<td>Region</td>
+				<td>
+				<select name="filters[region]">
+				<option selected="selected" value="any">All</option>
+				<option value="2">Auckland Region</option>
+				<option value="5">Bay of Plenty Region</option>
+				<option value="8">Canterbury Region</option>
+				<option value="32">Hawkes Bay - Gisborne Region</option>
+				<option value="38">Manawatu - Wanganui Region</option>
+				<option value="41">Nelson Marlborough Region</option>
+				<option value="44">Northland Region</option>
+				<option value="50">Otago - Southland Region</option>
+				<option value="62">Taranaki Region</option>
+				<option value="65">Waikato Region</option>
+				<option value="68">Wellington Region</option>
+				<option value="71">West Coast Region</option>
+				</select>
+				</td>
+				</tr>
+				<tr>
+				<td>Limit </td>
+				<td><select name="limit">
+				<option value="20">20 Records</option>
+				<option value="50" selected="">50 Records</option>
+				<option value="100">100 Records</option>
+				</select>
+				</td>
+				</tr>
+				</tbody>
+				</table>
+				<input value="Filter" class="btn btn-primary" type="submit">
+			</div>
+			<div class="card white">
+				<div class="post-content">
+					<div class="subject">
+						Some fake message subject goes here
+						<!-- {{ message.subject }} -->
+					</div>
+					<div class="user" data-id="{{ message.user.id }}">
+						<span class="img-user" style="background-image: url(/*user img url goes here*/);"></span>
+						<span class="name-user link">{{ message.user.firstName }} {{ message.user.lastName }}</span> from <span class="location-user link" data-district="{{ message.originNeighbourhood.district.name }}" data-region="{{ message.originNeighbourhood.district.region.name }}">{{ message.originNeighbourhood.name }}</span>
+					</div>
+				</div><!-- 
+				--><div class="post-info">
+					<div class="label">ea score</div>
+					<div class="value">0.0233</div>
+					<div class="label">posted</div>
+					<div class="value">23 Mar, 2018<!-- {{ message.createdAt|date("d/m/Y") }} --></div>
+				</div>
+
+				<div class="post-message">
+				</div>
+				{% if message.images|length > 0 and message.images[0] %}
+				<div class="post-img">
+					<!-- <img src="{{ asset(message.images[0].getThumbnailUrl) }}"> -->
+				</div>
+				{% endif %}
+				<div class="post-engagement-details">
+					<span class="likes">233 likes</span>
+					<span class="thanks">4323 thanks</span>
+					<span class="replies">33 replies</span>
+				</div>
+				<div class="btn-contact">
+					Contact <span data-id="{{ message.user.id }}">{{ message.user.firstName }}?</span>
+				</div>
+			</div>
+		</div>
+<!-- 		<script>
+		</script> -->
+	</body>
+</html>
