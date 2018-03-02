@@ -103,11 +103,13 @@
 			</div>
 		</div>
 		<div class="content second-page">
-			<span class="h1 inline">
+			<span class="h1 inline" style="width:80%;">
 					Search results
 			</span><!-- 
-			 --><span class="detail inline" style="text-align: right;">
-				< Back
+			 --><span class="detail inline" style="    text-align: right;
+    width: 20%;
+    vertical-align: text-top;">
+				<span class="btn-back"><img src="caret.svg"/>Back</span>
 			</span> 
 			<div class="search-bar">
 				<input name="page" value="1" type="hidden">
@@ -188,16 +190,22 @@
 				</div>
 				{% endif %}
 				<div class="post-engagement-details">
-					<span class="likes">233 likes</span>
-					<span class="thanks">4323 thanks</span>
-					<span class="replies">33 replies</span>
+					<div class="likes"><span class="glyphicon glyphicon-like"></span>233 likes</div>
+					<div class="thanks"><span class="glyphicon glyphicon-thank"></span>4323 thanks</div>
+					<div class="replies"><span class="glyphicon glyphicon-reply"></span>33 replies</div>
 				</div>
 				<div class="btn-contact">
 					Contact <span data-id="{{ message.user.id }}">{{ message.user.firstName }}?</span>
 				</div>
 			</div>
 		</div>
-<!-- 		<script>
-		</script> -->
+		
+		<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  		<script>
+  			// $("")
+  		</script>
 	</body>
 </html>

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Icon';
+    src: url(icon-font/icons-20160627.67e43eaa035e1b2ebfe46a6c311cfa5a.woff);
+}
 html, body {
 	margin:0; 
 	padding:0;
@@ -136,4 +140,45 @@ header > img {
     font-weight: bold;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+.btn-back{
+	font-weight: bold;
+    background-color: white;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #C5C5C5;
+    color: #0B9ABC;
+}
+.btn-back img {
+    width: 7px;
+    vertical-align: -1px;
+    margin-right: 5px;
+}
+.glyphicon {
+	    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Icon';
+    padding: 1px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+	float: left;
+    font-size: 16px;
+    color: #999;
+    margin-right: 3px;
+}
+.glyphicon-like::before {
+	    content: "\e607";
+}
+.glyphicon-thank::before {
+	    content: "\e013";
+}
+.glyphicon-reply::before {
+    content: "\e011";
+}
+.post-engagement-details > div {
+	display:inline-block;
+	margin-right: 10px;
 }

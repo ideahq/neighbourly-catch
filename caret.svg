@@ -1,46 +1,18 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="307.054px" height="307.054px" viewBox="0 0 307.054 307.054" style="enable-background:new 0 0 307.054 307.054;"
-	 xml:space="preserve">
-<g>
-	<g id="_x34_85._Up">
-		<g>
-			<path d="M302.445,205.788L164.63,67.959c-6.136-6.13-16.074-6.13-22.203,0L4.597,205.788c-6.129,6.132-6.129,16.069,0,22.201
-				l11.101,11.101c6.129,6.136,16.076,6.136,22.209,0l115.62-115.626L269.151,239.09c6.128,6.136,16.07,6.136,22.201,0
-				l11.101-11.101C308.589,221.85,308.589,211.92,302.445,205.788z"/>
-		</g>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="7px" height="11px" viewBox="0 0 7 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-8" transform="translate(-323.000000, -79.000000)" fill="#0B9ABC" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(310.000000, 70.000000)">
+                <g id="Group-9" transform="translate(13.000000, 6.000000)">
+                    <g id="26003" transform="translate(3.500000, 8.000000) rotate(-90.000000) translate(-3.500000, -8.000000) translate(-2.000000, 5.000000)">
+                        <path d="M10.0258011,4.73330387 L5.45734807,0.16438674 C5.25394475,-0.0388176796 4.92450829,-0.0388176796 4.72133702,0.16438674 L0.15238674,4.73330387 C-0.0507845304,4.93657459 -0.0507845304,5.2659779 0.15238674,5.46924862 L0.520375691,5.83723757 C0.723546961,6.04064088 1.05328177,6.04064088 1.25658564,5.83723757 L5.08929282,2.00433149 L8.9221326,5.83723757 C9.12527072,6.04064088 9.45483978,6.04064088 9.65807735,5.83723757 L10.0260663,5.46924862 C10.2294696,5.26574586 10.2294696,4.93657459 10.0258011,4.73330387 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
